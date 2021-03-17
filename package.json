@@ -1,0 +1,23 @@
+{
+  "name": "rust-type",
+  "version": "1.0.0",
+  "description": "Can use rust-like type in JavaScript or TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiacode/rust-type.git"
+  },
+  "keywords": [
+    "rust",
+    "type"
+  ],
+  "author": "Catry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akiacode/rust-type/issues"
+  },
+  "homepage": "https://github.com/akiacode/rust-type#readme"
+}
