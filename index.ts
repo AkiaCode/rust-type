@@ -3,10 +3,13 @@ export type ResultType<T, E> = T | E;
 
 export class Optine<T> {
     some: T;
-    public Some(some: T): T { return some; }
+    public Some(some: T): T {
+        this.some = some;
+        return some;
+    }
     public None = undefined;
     public isSome(v: T): boolean {
-        return String(v) === String(this.some)
+        return v === this.some
     }
 }
 
