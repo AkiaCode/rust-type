@@ -2,20 +2,22 @@ export type OptineType<T> = T | undefined;
 export type ResultType<T, E> = T | E;
 
 export class Optine<T> {
-    some: T;
+    private some: T;
+    public None = undefined;
+    
     public Some(some: T): T {
         this.some = some;
         return some;
     }
-    public None = undefined;
     public isSome(v: T): boolean {
         return v === this.some
     }
 }
 
 export class Result<T, E> {
-    ok: T;
-    err: E;
+    private ok: T;
+    private err: E;
+    
     public Ok(ok: T): T {
         this.ok = ok;
         return ok
