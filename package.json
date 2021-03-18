@@ -1,6 +1,6 @@
 {
   "name": "rust-type",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Can use rust-like type in JavaScript or TypeScript",
   "main": "index.js",
   "scripts": {
