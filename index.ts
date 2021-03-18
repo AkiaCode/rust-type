@@ -1,4 +1,4 @@
-export type OptineType<T> = T;
+export type OptineType<T> = T | undefined;
 export type ResultType<T, E> = T | E;
 
 export class Optine<T> {
